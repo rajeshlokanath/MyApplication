@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText1"
+        android:text="@string/name"
+        android:autofillHints=""
+        android:inputType="text"
+        android:hint="@string/add_name"
+        >
+    </EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:inputType="text"
+        android:text="@string/grade"
+        android:autofillHints=""
+        android:hint="@string/grade">
+    </EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:text="@string/addname"
+        android:textAllCaps="true"
+        android:onClick="onClickAddName">
+
+    </Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:text="@string/retrive_student"
+        android:textAllCaps="true"
+        android:onClick="onClickRetriveData">
+
+    </Button>
+</LinearLayout>

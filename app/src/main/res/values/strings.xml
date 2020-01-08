@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyApplication</string>
+    <string name="action_settings">Settings</string>
+    <string name="content_provider">Content provider</string>
+    <string name="tutorials_point">Tutorials point</string>
+    <string name="add_name">Add Name</string>
+    <string name="todo">TODO</string>
+    <string name="retrive_student">Retrive student</string>
+    <string name="addname">addName</string>
+    <string name="name">Name</string>
+    <string name="grade">Grade</string>
+</resources>
